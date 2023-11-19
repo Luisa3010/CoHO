@@ -17,24 +17,9 @@
       color: white;
     }
     
-    .subtopbar {
-      padding-left: 10px;  
-    }
-
-    .subtopbar h1 {
-      font-size: 40px;
-      color: #373347;
-    }
-
-    .subtopbar p {
-      font-size: 30px;
-      color: #373347;
-    }
-    
     .image-container {
       position: relative;
       width: 100%; /* or the width you desire */
-      max-width: 500px; /* optional, for controlling image size */
     }
   
     .image-container img {
@@ -42,25 +27,30 @@
       height: auto;
       display: block; /* removes any extra space below the image */
     }
+
+    .image-container h1 {
+      font-size: 40px;
+      color: #373347;
+    }
+
+    .image-container p {
+      font-size: 30px;
+      color: #373347;
+    }
   
     .text-overlay {
       position: absolute;
       top: 0;
       left: 0;
       width: 100%;
-      color: white; /* or any color you prefer */
-      text-align: center; /* centers the text horizontally */
-      padding: 10px; /* optional, for padding inside the text overlay */
+      color: white; 
+      text-align: left; 
+      padding-left: 10px; 
     }
     
   </style>
   
   <div class = "topbar">
-  </div>
-
-  <div class = "subtopbar">
-    <h1>The Website of all Websites</h1>
-    <p>This is a paragraph on your webpage.</p>
   </div>
 
   <div class="image-container">
@@ -70,8 +60,6 @@
         <p>Some additional text or description.</p>
       </div>
   </div>
-
-
 
 </body>
 </html>
