@@ -10,11 +10,14 @@
       margin: 0;
       background-color: #D6D3D1;
     }
+    :root {
+    --offwhite: #D6D3D1;
+    }
 
     .topbar {
       padding: 40px;         
       text-align: center;
-      background: #D6D3D1;
+      background: var(--offwhite);
       color: white;
     }
     
@@ -34,12 +37,12 @@
 
     .image-container h1 {
       font-size: 80px;
-      color: white;
+      color: var(--offwhite);;
     }
 
     .image-container p {
       font-size: 20px;
-      color: white;
+      color: var(--offwhite);;
     }
   
     .text-overlay {
@@ -47,7 +50,7 @@
       top: 0;
       left: 0;
       width: 100%;
-      color: white; 
+      color: var(--offwhite);; 
       text-align: left; 
       padding-left: 40px; 
     }
