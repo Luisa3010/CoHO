@@ -31,6 +31,28 @@
       color: #373347;
     }
     
+    .image-container {
+      position: relative;
+      width: 100%; /* or the width you desire */
+      max-width: 500px; /* optional, for controlling image size */
+    }
+  
+    .image-container img {
+      width: 100%;
+      height: auto;
+      display: block; /* removes any extra space below the image */
+    }
+  
+    .text-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      color: white; /* or any color you prefer */
+      text-align: center; /* centers the text horizontally */
+      padding: 10px; /* optional, for padding inside the text overlay */
+    }
+    
   </style>
   
   <div class = "topbar">
@@ -41,7 +63,15 @@
     <p>This is a paragraph on your webpage.</p>
   </div>
 
-  <img src="assets/images/BackgroundFlow.png" alt="Background Image">
+  <div class="image-container">
+    <img src="assets/images/BackgroundFlow.png" alt="Background Image">
+      <div class="text-overlay">
+        <h1>Your Title Here</h1>
+        <p>Some additional text or description.</p>
+      </div>
+  </div>
+
+
 
 </body>
 </html>
